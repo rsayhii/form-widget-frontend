@@ -15,7 +15,7 @@ export interface Enquiry {
 }
 
 const API_URL =
-  "https://form-widget-backend.onrender.com";
+  "https://form-widget-backend.onrender.com/api/enquiries";
 
 export const getAllEnquiries =
   async (): Promise<Enquiry[]> => {
