@@ -1,6 +1,6 @@
 import type { FormData } from "../types/form";
 
-const API_URL = "http://localhost:5000/api/forms";
+const API_URL = "https://form-widget-backend.onrender.com";
 
 // CREATE FORM
 export const createForm = async (formData: FormData) => {
